@@ -1,0 +1,7 @@
+name: CraftIRC
+main: com.ensifera.animosity.craftirc.CraftIRC
+version: 2.0 Preview 10b
+website: http://forums.joe.to
+author: J2 Minecraft Plugin Team
+description: >
+             The joe.to fake CraftIRC.
