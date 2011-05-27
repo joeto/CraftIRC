@@ -32,9 +32,7 @@ public class CraftIRC  extends JavaPlugin {
 	}
 	
 	public void sendMessageToTag(String message, String tag) {
-		if(j2.debug){
-			j2.log.info("Fake: Got message, tag \""+tag+"\"");
-		}
+		j2.debug("Fake: Got message, tag \""+tag+"\"");
 		if(!nope){
 			/*if(!message.startsWith("[WARNING]")){
 				return;
